@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="Pt"br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
+    <title>Midias em html</title>
+</head>
+<body>
+    <H1>Imagen Dinamica</H1>
+    <p>V<abbr title="Chupa janaina">amos testa agora as tags Picture e source midia type: Elas são responsaveis por adptatr a imagem na  tela. Tentaremos abrir essa imagem em vairios dispositivos, para ver a atividade por completo.</abbr> </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png.png" type="image/png">
+        <img src="imagens/foto-g.png.png" alt="">
+        <ul>
+            <li>Primeira imagem granade</li>
+            <li>Segundo a imagem media</li>
+            <li>Terceira a imagem pequena</li>
+        </ul>
+        <h1>Reproduzindo audio no Site</h1>
+        <p>Vamos aprender a colocara áudio no Site <br>
+            <ol type="1">
+                
+                <li> Com o comando audio</li>
+                <li> Com o comando audio+ source:src</li>
+            </ol>
+        </p>
+
+        <H2>Primeira forma de adicionar áudio</H2>
+   
+        <audio src="midia/12 Hours in Addis - Nana Kwabena.mp3" controls></audio>
+
+        <h2>Segunda forma de adicionar áudio</h2>
+
+        <audio preload="" autoplay controls>
+            <source src="midia/12 Hours in Addis - Nana Kwabena.mp3" type="audio/mpeg">
+        </audio>
+
+
+
+        
+    </picture>
+ 
+
+    
+</body>
+</html>
