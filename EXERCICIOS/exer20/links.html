@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pr"br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Html</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: medium;
+            font-weight: bold;
+            font-style: normal;
+        }
+        a{
+            color: rgb(197, 27, 27);
+            text-decoration: none;
+
+
+        }
+        a:hover{
+            text-decoration:underline ;
+
+        }
+        
+        a:active{
+            color: yellow;
+        }
+        
+        a::after{
+            content:'[link]'' ;
+            text-decoration: none;
+            font-weight: normal;
+
+
+        }
+        .especial{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            background-color: rgba(216, 141, 141, 0.842);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="especial">Trabalhando com link em css</h1>
+   <ul>
+    <li><a href="https://www.cursoemvideo.com/" target="_blank">Curso em video</a></li>
+    <li><a href="https://github.com/" target="_blank">Github</a></li>
+    <li><a href="https://www.youtube.com/" target="_blank">Youtub</a></li>
+   </ul>
+   
+</body>
+</html>
