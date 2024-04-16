@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    background-color:#36EEF0;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+h1{
+    color: #155E5F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    fon
+}
+
+h1#principal{
+    text-align:center;
+    color: black;
+    background-color:#569A9B;
+}
+
+h2{
+    color: #155E5F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.basico{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(64, 153, 101);
+}
+
+.intermediário{
+    color: rgba(190, 192, 55, 0.836);
+
+}
+.avançado{
+    color: rgba(247, 105, 105, 0.774);
+}
+.destaque{
+    color: #151c5f;
+    background-color: rgba(240, 240, 116, 0.829);
+}
