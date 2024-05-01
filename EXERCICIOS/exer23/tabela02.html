@@ -22,15 +22,27 @@
             
         }
         td, th{
-            border: 1px solid black;
+            border: 1px solid rgb(121, 114, 114);
             padding: 10px;
            
 
+        }
+        caption{
+            font-size: 1.5em;
+            background-color: gray;
+            
         }
         thead {
             background-color: gray  
             
             
+           }
+
+           thead > tr > th{
+            position: sticky;
+            top: 0px;
+            background-color: black;
+            color: white;
            }
            tfoot{
             background-color: gray;
@@ -40,16 +52,20 @@
            td.numero{
             text-align: right;
            }
+         tbody tr:nth-child(3N) {
+            background-color: gray;
+         }
 
     </style>
 </head>
 <body>
     <table>
+        <caption><Strong>Estados federativos</Strong></caption>
         <h1>Uso de tabelas grandes </h1>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
            
         </thead>
@@ -121,9 +137,13 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <td class="numero">10000000000</td>
         </tfoot>
     </table>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis in atque error dolor perspiciatis minima voluptate est recusandae eum, ducimus totam nulla voluptatum distinctio corporis laudantium, consectetur, quisquam tempora ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, cupiditate soluta repellat non error ducimus possimus mollitia maiores nihil? Fugiat suscipit voluptates natus eaque explicabo ipsam iure laudantium facere sint? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos magnam, sit nihil, ex numquam tempora corrupti veritatis veniam minus fugit nisi accusamus error quae temporibus iusto recusandae. Fuga, veniam illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum laboriosam, consectetur, tempora veritatis repellendus explicabo tenetur soluta, alias fugiat pariatur odio quas. Eius deleniti, id aspernatur accusantium ut dolores sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis animi magni sunt praesentium totam possimus facere illo dignissimos unde sit voluptatem, doloremque quidem beatae vero culpa ipsum sapiente. Provident, laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, veritatis fugiat deserunt facere harum minus cupiditate ad possimus officiis? Ex vel impedit culpa repudiandae quam saepe omnis blanditiis tempore minima. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur accusantium deleniti rerum quasi, dolore perspiciatis aut officia ea cum debitis inventore minus assumenda labore quae vero eum cumque fuga ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis autem ipsa nam non odit omnis possimus qui, corporis praesentium, asperiores consequuntur tempore molestias recusandae labore suscipit sunt aliquam, vero quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam neque officiis sunt iste, fugit voluptatibus dolorem praesentium fuga ratione natus dolores! Quas ab fuga provident aspernatur dignissimos maiores veritatis sed! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestias suscipit dolore quo doloribus placeat maiores quae eveniet impedit. Aperiam possimus nostrum mollitia ex, expedita dolorem hic rem architecto dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nesciunt facere at labore quis dolores delectus porro debitis, quibusdam, aliquid eveniet doloremque atque quia, repellat rem temporibus officia beatae? Soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam labore laboriosam dolore soluta perspiciatis sit consequatur laborum sunt provident qui, expedita quia nam voluptas magnam suscipit praesentium obcaecati voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste perferendis sapiente unde consequuntur consequatur, totam expedita inventore praesentium omnis, odio magni beatae, doloribus iure quos quisquam quaerat ipsam a nobis.
+    </p>
+
 </body>
 </html>
