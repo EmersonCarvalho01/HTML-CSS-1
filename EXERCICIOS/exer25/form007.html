@@ -7,15 +7,49 @@
 </head>
 <body>
     <h1> Teste de forrmularios,select datalist, e textarea</h1>
-    <form action="cadastro. php">
+    <form action="cadastro. php" method="post" autocomplete="off">
 
     <p>
         <label for="iest"> Estado:</label>
-        <select name="Estado" id="iest"></select>
-
-        <option value="MA">Maranhão</option>
+        <select name="Estado" id="iest">
+        
+        <option value=""select>--Escolha--</option>
+        <optgroup label="Região Sudeste"  >
+            <option value="RJ">Rio de janeiro</option>
+            <option value="Sp">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+        </optgroup>
+    </p>
+op
+    <p>
+        <optgroup label="Região Nordeste">
+            <option value="MR">Maranhão</option>
+            <option value="PN">Pernambuco</option>
+            <option value="Rg">Rio grande do Norte</option>
+        </optgroup>
+    </select>
     </p>
 
+    <p>
+       <label for="iprof">Profissão</label>
+       <input type="text" name="prof" id="iprof" list="Istprof" >
+        <datalist id="Istprof">
+            <option value="Ad">Admistrador</option>
+            <option value="cont">Contador</option>
+            <option value="Dsv">Desenvolvedor</option>
+        </datalist>
+
+    </p>
+    <p>
+        <label for="imsg">Mensagem</label>
+        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
 
     </form>
     
